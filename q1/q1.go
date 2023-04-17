@@ -1,5 +1,7 @@
 package q1
 
+import "fmt"
+
 func CalculateDiscount(currentPurchase float64, purchaseHistory []float64) (float64, error) {
 	val_desc := 0.0
 	soma := 0.0
